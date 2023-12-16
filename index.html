@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip</title>
+
+    
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Create a <link> to the first stylesheet needed for Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Use appropriate css classes on nav element. -->
+    <!-- 2. Add child elements as required. -->
+
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand h1" href="/">QTrip</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="pages/adventures/index.html"
+                target="_blank"
+              >
+                Explore</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Use appropriate css classes on the hero image container element. -->
+    <!-- 2. Add child elements as required. -->
+
+    <div
+      class="hero-image d-flex flex-column justify-content-center align-items-center text-white text-center"
+    >
+      <div class="container">
+        <h1>Welcome to QTrip</h1>
+        <p class="hero-subheading">
+          Explore the world with fantastic places to venture around
+        </p>
+        <input class="hero-input" type="search" placeholder="Search a City" />
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <!-- TODO: MODULE_LAYOUT -->
+      <!-- 1. Create the grid like layout as required. -->
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 mb-4 adv-card-cont">
+          <a
+            href="/pages/adventures/index.html"
+            class="land-cards"
+            target="_blank"
+          >
+            <div class="tile">
+              <img src="/assets/bengaluru.jpg" alt="bengaluruImg" />
+              <div class="tile-text">
+                <figcaption class="city">BENGALURU</figcaption>
+                <figcaption class="city-des">100+ PLACES</figcaption>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <a href="/pages/adventures/index.html" class="land-cards">
+            <div class="tile">
+              <img src="/assets/dubai.jpg" alt="dubaiImg" />
+              <div class="tile-text">
+                <figcaption class="city">DUBAI</figcaption>
+                <figcaption class="city-des">74+ PLACES</figcaption>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <a href="/pages/adventures/index.html" class="land-cards">
+            <div class="tile">
+              <img src="/assets/goa.jpg" alt="goaImg" />
+              <div class="tile-text">
+                <figcaption class="city">GOA</figcaption>
+                <figcaption class="city-des">160+ PLACES</figcaption>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <a href="/pages/adventures/index.html" class="land-cards">
+            <div class="tile">
+              <img src="/assets/kolkata.jpg" alt="kolkataImg" />
+              <div class="tile-text">
+                <figcaption class="city">KOLKATA</figcaption>
+                <figcaption class="city-des">52+ PLACES</figcaption>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <a href="/pages/adventures/index.html"
+            ><div class="tile">
+              <img src="/assets/malaysia.jpg" alt="malaysiaImg" />
+              <div class="tile-text">
+                <figcaption class="city">MALAYSIA</figcaption>
+                <figcaption class="city-des">172+ PLACES</figcaption>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <a href="/pages/adventures/index.html" class="land-cards"
+            ><div class="tile">
+              <img src="/assets/mumbai.jpg" alt="mumbaiImg" />
+              <div class="tile-text">
+                <figcaption class="city">MUMBAI</figcaption>
+                <figcaption class="city-des">121+ PLACES</figcaption>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <a href="/pages/adventures/index.html" class="land-cards"
+            ><div class="tile">
+              <img src="/assets/paris.jpg" alt="parisImg" />
+              <div class="tile-text">
+                <figcaption class="city">PARIS</figcaption>
+                <figcaption class="city-des">150+ PLACES</figcaption>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <a href="/pages/adventures/index.html" class="land-cards"
+            ><div class="tile">
+              <img src="/assets/singapore.jpg" alt="singaporeImg" />
+              <div class="tile-text">
+                <figcaption class="city">SINGAPORE</figcaption>
+                <figcaption class="city-des">89+ PLACES</figcaption>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">© QTrip 2023 By: Yash Nayak</div>
+    </footer>
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- Add scripts needed for bootstrap to work -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
